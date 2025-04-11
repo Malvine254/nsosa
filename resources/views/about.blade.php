@@ -11,7 +11,7 @@
     
   </div><!-- End Carousel Item -->
 
-  <div class="carousel-item">
+  <div class="carousel-item"> 
   <img src="{{ asset('img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
     
   </div><!-- End Carousel Item -->
