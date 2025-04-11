@@ -1,5 +1,6 @@
-
-@include('layouts.header')
+<!DOCTYPE html>
+<html lang="en"></html>
+  @include('layouts.header')
 
   <main class="main">
 
@@ -512,3 +513,7 @@
   </main>
 
   @include('layouts.footer')
+
+  </body>
+
+</html>

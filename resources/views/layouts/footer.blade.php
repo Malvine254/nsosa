@@ -31,9 +31,3 @@
  
   @vite(['resources/css/main.css', 'resources/js/main.js'])
 
-
-
-
-</body>
-
-</html>

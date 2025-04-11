@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en"></html>
 
 @include('layouts.header')
 <!-- Hero Section -->
@@ -178,3 +180,7 @@
 </section><!-- /About Section -->
 
 @include('layouts.footer')
+
+</body>
+
+</html>

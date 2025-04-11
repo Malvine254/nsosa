@@ -1,4 +1,6 @@
  
+<!DOCTYPE html>
+<html lang="en"></html>
 @include('layouts.header')
  
  <!-- Contact Section -->
@@ -81,5 +83,7 @@
 
 </section><!-- /Contact Section -->
 
-
 @include('layouts.footer')
+</body>
+
+</html>
