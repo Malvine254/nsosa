@@ -364,7 +364,7 @@
         <div class="row gy-3">
         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-item featured">
-              <img class="img-fluid" src="{{ asset('img/gallery/gallery-8.jpg') }}" alt="">
+              <img class="img-fluid" src="{{ asset('img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
               <div class="default-back-color mt-2 text-light col-md-6">
                <p class="text-start text-light">23rd Dec 2024</p>
                
@@ -380,7 +380,7 @@
 
           <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-item featured">
-              <img class="img-fluid" src="{{ asset('img/gallery/gallery-8.jpg') }}" alt="">
+              <img class="img-fluid" src="{{ asset('img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
               <div class="default-back-color mt-2 text-light col-md-6">
                <p class="text-start text-light">23rd Dec 2024</p>
                
@@ -396,7 +396,7 @@
 
           <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-item featured">
-              <img class="img-fluid" src="{{ asset('img/gallery/gallery-8.jpg') }}" alt="">
+              <img class="img-fluid" src="{{ asset('img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
               <div class="default-back-color mt-2 text-light col-md-6">
                <p class="text-start text-light">23rd Dec 2024</p>
                
@@ -412,7 +412,7 @@
 
          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-item featured">
-              <img class="img-fluid" src="{{ asset('img/gallery/gallery-8.jpg') }}" alt="">
+              <img class="img-fluid" src="{{ asset('img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
               <div class="default-back-color mt-2 text-light col-md-6">
                <p class="text-start text-light">23rd Dec 2024</p>
                
