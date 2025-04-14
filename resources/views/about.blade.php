@@ -4,180 +4,160 @@
 @include('layouts.header')
 <!-- Hero Section -->
 <section id="hero" class="hero section">
-<div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+  <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-  <div class="carousel-item active">
-    <img src="{{ asset('img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
-    
-  </div><!-- End Carousel Item -->
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="{{ asset('img/hero-carousel/hero-carousel-1.jpg') }}" class="d-block w-100" alt="">
+      <div class="carousel-caption top-caption d-none d-md-block">
+        <h2 class="text-light">From Vision to Reality</h2>
+        <p>Discover how our global alumni community is shaping the future with purpose, integrity, and innovation.</p>
+      </div>
+    </div>
 
-  <div class="carousel-item"> 
-  <img src="{{ asset('img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
-    
-  </div><!-- End Carousel Item -->
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="{{ asset('img/hero-carousel/hero-carousel-2.jpg') }}" class="d-block w-100" alt="">
+      <div class="carousel-caption top-caption d-none d-md-block">
+        <h2 class="text-light">Our Story. Our Legacy.</h2>
+        <p>Rooted in excellence, driven by values — learn how our journey continues through the impact of our alumni.</p>
+      </div>
+    </div>
 
-  <div class="carousel-item">
-  <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" alt="">
-  
-  </div><!-- End Carousel Item -->
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="d-block w-100" alt="">
+      <div class="carousel-caption top-caption d-none d-md-block">
+        <h2 class="text-light">Connected Beyond Campus</h2>
+        <p>Building a lifelong network of changemakers, leaders, and collaborators across the world.</p>
+      </div>
+    </div>
 
-  <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-  </a>
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+    </a>
 
-  <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-  </a>
+    <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+    </a>
 
-  <ol class="carousel-indicators"></ol>
+    <ol class="carousel-indicators"></ol>
 
-</div>
-
+  </div>
 </section><!-- /Hero Section -->
-<!-- Featured Services Section -->
-<section id="featured-services" class="featured-services section ">
-       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Core Values<br></h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>
-      <div class="container ">
 
-        <div class="row gy-4">
+<!-- core values Section -->
+<!-- Core Values Section -->
+<section id="featured-services" class="featured-services section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Core Values</h2>
+    <p>Guided by purpose and united by experience, these values continue to shape the lives and impact of our alumni around the world.</p>
+  </div>
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-heartbeat icon"></i></div>
-              <h4><a href="" class="stretched-link">First Event</a></h4>
-               <p>Feb 24th 2025</p>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-              <a href="#about" class="btn-get-started">Read More</a>
-            </div>
-          </div><!-- End Service Item -->
+  <div class="container">
+    <div class="row gy-4">
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-pills icon"></i></div>
-              <h4><a href="" class="stretched-link">Second Event</a></h4>
-               <h6>Feb 24th 2025</h6>
-               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                <a class="cta-btn" href="#appointment">Register Now</a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-thermometer icon"></i></div>
-              <h4><a href="" class="stretched-link">Third Event</a></h4>
-               <p>Feb 24th 2025</p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-              <a class="cta-btn" href="#appointment">Register Now</a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-dna icon"></i></div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-               <p>Feb 24th 2025</p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                <a class="cta-btn" href="#appointment">Register Now</a>
-            </div>
-          </div><!-- End Service Item -->
-
+      <!-- Value 1 -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="fas fa-users icon"></i></div>
+          <h4><a href="#" class="stretched-link">Community</a></h4>
+          <p>We foster lifelong bonds, support networks, and shared purpose that extend far beyond campus.</p>
         </div>
-
       </div>
 
-    </section><!-- /Featured Services Section -->
-<!-- Features Section -->
- <section id="features" class="features section">
-
-<div class="container">
-
-  <div class="row justify-content-around gy-4">
-    <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="{{ asset('img/features.jpg') }}" alt=""></div>
-
-    <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-      <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-      <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
-
-      <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-        <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
-        <div>
-          <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-          <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+      <!-- Value 2 -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="fas fa-lightbulb icon"></i></div>
+          <h4><a href="#" class="stretched-link">Innovation</a></h4>
+          <p>Our alumni challenge norms and pioneer solutions, driving change in every sector they touch.</p>
         </div>
-      </div><!-- End Icon Box -->
+      </div>
 
-      <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-        <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
-        <div>
-          <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+      <!-- Value 3 -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="fas fa-handshake icon"></i></div>
+          <h4><a href="#" class="stretched-link">Collaboration</a></h4>
+          <p>We believe in the strength of unity—supporting each other to achieve shared goals and create impact.</p>
         </div>
-      </div><!-- End Icon Box -->
+      </div>
 
-      <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-        <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
-        <div>
-          <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-          <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+      <!-- Value 4 -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon"><i class="fas fa-globe icon"></i></div>
+          <h4><a href="#" class="stretched-link">Global Impact</a></h4>
+          <p>Our values inspire action that transcends borders, fueling a global movement of changemakers.</p>
         </div>
-      </div><!-- End Icon Box -->
-
-      <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-        <i class="fa-solid fa-lungs flex-shrink-0"></i>
-        <div>
-          <h4><a href="" class="stretched-link">Tride clov</a></h4>
-          <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
-        </div>
-      </div><!-- End Icon Box -->
+      </div>
 
     </div>
   </div>
+</section>
 
-</div>
-
-</section><!-- /Features Section -->
-
-
+<!-- core values Section -->
+ 
 <!-- About Section -->
 <section id="about" class="about section">
 
-<!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2>About Us<br></h2>
-  <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-</div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Who We Are</h2>
+    <p>Rooted in excellence, united by tradition — shaping lives beyond the classroom since day one.</p>
+  </div><!-- End Section Title -->
 
-<div class="container">
+  <div class="container">
+    <div class="row gy-4">
+    
+      <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+        <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="img-fluid" alt="Nyandarua High School">
+        <a href="https://www.youtube.com/shorts/LJQFCstLgYw" class="glightbox pulsating-play-btn"></a>
+      </div>
 
-  <div class="row gy-4">
-    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-      <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="">
-      <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-    </div>
-    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-      <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-      <p class="fst-italic">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-      </p>
-      <ul>
-        <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-        <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-        <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-      </ul>
-      <p>
-        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-      </p>
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+        <h3>More Than a School — A Foundation for Life</h3>
+        <p class="fst-italic">
+          Nyandarua High School has nurtured generations of learners, leaders, and changemakers who continue to make a difference in Kenya and around the world.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-all"></i> 
+            <span>
+              A legacy of academic excellence, integrity, and discipline — Nyandarua High School has consistently fostered an environment where performance is not only encouraged, but expected. Our students go on to become top scholars, respected professionals, and ethical leaders across Kenya and beyond.
+            </span>
+          </li>
+
+          <li><i class="bi bi-check2-all"></i> 
+            <span>
+              Empowering students to grow intellectually, socially, and morally — we shape well-rounded individuals through strong academic programs, co-curricular activities, leadership development, and a values-based culture that stays with them for life.
+            </span>
+          </li>
+
+          <li><i class="bi bi-check2-all"></i> 
+            <span>
+              Home to a vibrant alumni community committed to mentorship, service, and giving back — our alumni play an active role in shaping future generations through school mentorship programs, career guidance, scholarships, and community outreach initiatives.
+            </span>
+          </li>
+
+          <li><i class="bi bi-check2-all"></i> 
+            <span>
+              A culture of unity and belonging — whether on campus or decades after graduation, Nyandarua High School fosters lifelong friendships and a deep sense of identity and pride among its students and alumni.
+            </span>
+          </li>
+        </ul>
+
+        <p>
+          From the scenic hills of Nyandarua County to the halls of universities and boardrooms across the globe, our story is one of resilience, values, and shared identity. We are not just graduates — we are a family bound by shared experiences and a commitment to building a better future.
+        </p>
+      </div>
+
     </div>
   </div>
 
-</div>
-
 </section><!-- /About Section -->
+
 
 @include('layouts.footer')
 

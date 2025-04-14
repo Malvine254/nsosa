@@ -17,3 +17,6 @@ Route::get('/events', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::get('/articles', function () {
+    return view('articles');
+});
