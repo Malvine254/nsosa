@@ -28,6 +28,12 @@
 
 
   <!-- Main JS File -->
+  @vite([
+    'resources/css/app.css',
+    'resources/css/main.css',
+    'resources/js/app.js',
+    'resources/js/main.js'
+])
+
  
-  @vite(['resources/css/main.css', 'resources/js/main.js'])
 
