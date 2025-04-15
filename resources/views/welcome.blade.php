@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en"></html>
   @include('layouts.header')
 
   <main class="main">
@@ -14,7 +12,7 @@
           <div class="container">
             <h2>Legacy Reunited: NHS Alumni Day</h2>
             <p>The Nyandarua High School Alumni Event brings together former students for a meaningful day of connection, reflection, and inspiration. As we revisit the grounds that shaped our journey, we reconnect with old friends and teachers, share valuable life experiences with current students, and celebrate the legacy of NHS. This event is not only about looking back but also about building bridges to the future—fostering unity, mentorship, and a strong, supportive alumni community.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
+            <a href="articles" class="btn-get-started">Read More</a>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -22,8 +20,8 @@
         <img src="{{ asset('img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
           <div class="container">
             <h2>Legacy Reunited: NHS Alumni Day</h2>
-            <p>The Nyahururu High School Alumni Event brings together former students for a meaningful day of connection, reflection, and inspiration. As we revisit the grounds that shaped our journey, we reconnect with old friends and teachers, share valuable life experiences with current students, and celebrate the legacy of NHS. This event is not only about looking back but also about building bridges to the future—fostering unity, mentorship, and a strong, supportive alumni community.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
+            <p>The Nyandarua High School Alumni Event brings together former students for a meaningful day of connection, reflection, and inspiration. As we revisit the grounds that shaped our journey, we reconnect with old friends and teachers, share valuable life experiences with current students, and celebrate the legacy of NHS. This event is not only about looking back but also about building bridges to the future—fostering unity, mentorship, and a strong, supportive alumni community.</p>
+            <a href="articles" class="btn-get-started">Read More</a>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -31,8 +29,8 @@
         <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" alt="">
           <div class="container">
            <h2>Legacy Reunited: NHS Alumni Day</h2>
-            <p>The Nyahururu High School Alumni Event brings together former students for a meaningful day of connection, reflection, and inspiration. As we revisit the grounds that shaped our journey, we reconnect with old friends and teachers, share valuable life experiences with current students, and celebrate the legacy of NHS. This event is not only about looking back but also about building bridges to the future—fostering unity, mentorship, and a strong, supportive alumni community.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
+            <p>The Nyandarua High School Alumni Event brings together former students for a meaningful day of connection, reflection, and inspiration. As we revisit the grounds that shaped our journey, we reconnect with old friends and teachers, share valuable life experiences with current students, and celebrate the legacy of NHS. This event is not only about looking back but also about building bridges to the future—fostering unity, mentorship, and a strong, supportive alumni community.</p>
+            <a href="articles" class="btn-get-started">Read More</a>
           </div>
         </div><!-- End Carousel Item -->
 

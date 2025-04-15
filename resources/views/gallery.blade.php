@@ -118,7 +118,7 @@
 
     <!-- Alumni 1 -->
     <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-    <div class="card p-3 h-100">
+    <div class="card p-3 h-100 shadow">
         <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="img-fluid mb-3" alt="Jane Mugo">
         <h5>Jane Mugo</h5>
         <p>Class of 2010 — Founder of STEM4Girls Kenya, empowering young women in tech.</p>
@@ -127,7 +127,7 @@
 
     <!-- Alumni 2 -->
     <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-    <div class="card p-3 h-100">
+    <div class="card p-3 h-100 shadow">
         <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="img-fluid mb-3" alt="Peter Njoroge">
         <h5>Peter Njoroge</h5>
         <p>Class of 2005 — Award-winning author and education advocate transforming rural schools.</p>
@@ -136,7 +136,7 @@
 
     <!-- Alumni 3 -->
     <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
-    <div class="card p-3 h-100">
+    <div class="card p-3 h-100 shadow">
         <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="img-fluid mb-3" alt="Linda Wanjiku">
         <h5>Linda Wanjiku</h5>
         <p>Class of 2012 — Global health researcher at WHO, tackling public health challenges.</p>
@@ -145,7 +145,7 @@
 
     <!-- Alumni 4 -->
     <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
-    <div class="card p-3 h-100">
+    <div class="card p-3 h-100 shadow">
         <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="img-fluid mb-3" alt="Brian Otieno">
         <h5>Brian Otieno</h5>
         <p>Class of 2011 — Tech entrepreneur and founder of EduConnect Africa, bridging digital gaps in education.</p>

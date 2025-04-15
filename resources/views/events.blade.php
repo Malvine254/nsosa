@@ -50,8 +50,8 @@
   </div>
 </section><!-- /Hero Section -->
 
- <!-- Upcoming Events Section -->
-<section id="events" class="section py-5">
+  <!-- Upcoming Events Section -->
+  <section id="events" class="section py-5">
   <div class="container section-title" data-aos="fade-up">
     <h2>Upcoming Events</h2>
     <p>Stay connected and be part of our upcoming alumni gatherings, mentorship forums, and celebrations.</p>
@@ -69,7 +69,7 @@
             <p class="text-muted mb-1"><i class="bi bi-calendar-event me-1"></i> March 15, 2025</p>
             <p class="text-muted"><i class="bi bi-geo-alt me-1"></i> Nyandarua High School Grounds</p>
             <p class="card-text">Reconnect with old friends, share memories, and celebrate the Nyandarua spirit.</p>
-            <a href="#register" class="btn btn-primary btn-sm default-back-color">Register Now</a>
+            <a href="#register" class="btn btn-primary btn-sm default-back-color p-2">Register Now</a>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
             <p class="text-muted mb-1"><i class="bi bi-calendar-event me-1"></i> April 6, 2025</p>
             <p class="text-muted"><i class="bi bi-geo-alt me-1"></i> School Hall, Nyandarua High</p>
             <p class="card-text">Inspire the next generation by sharing your journey and professional experience.</p>
-            <a href="#register" class="btn btn-outline-primary btn-sm">Sign Up</a>
+            <a href="#register" class="btn btn-primary btn-sm default-back-color p-2">Register Now</a>
           </div>
         </div>
       </div>
@@ -97,7 +97,49 @@
             <p class="text-muted mb-1"><i class="bi bi-calendar-event me-1"></i> May 10, 2025</p>
             <p class="text-muted"><i class="bi bi-geo-alt me-1"></i> Online (Zoom)</p>
             <p class="card-text">Join alumni experts in tech, law, and health as they offer practical career insights.</p>
-            <a href="#register" class="btn btn-success btn-sm">Join Webinar</a>
+            <a href="#register" class="btn btn-primary btn-sm default-back-color p-2">Register Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 shadow-sm">
+          <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="card-img-top" alt="Virtual Career Talk">
+          <div class="card-body">
+            <h5 class="card-title">Virtual Career Talk Series</h5>
+            <p class="text-muted mb-1"><i class="bi bi-calendar-event me-1"></i> May 10, 2025</p>
+            <p class="text-muted"><i class="bi bi-geo-alt me-1"></i> Online (Zoom)</p>
+            <p class="card-text">Join alumni experts in tech, law, and health as they offer practical career insights.</p>
+            <a href="#register" class="btn btn-primary btn-sm default-back-color p-2">Register Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 shadow-sm">
+          <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="card-img-top" alt="Virtual Career Talk">
+          <div class="card-body">
+            <h5 class="card-title">Virtual Career Talk Series</h5>
+            <p class="text-muted mb-1"><i class="bi bi-calendar-event me-1"></i> May 10, 2025</p>
+            <p class="text-muted"><i class="bi bi-geo-alt me-1"></i> Online (Zoom)</p>
+            <p class="card-text">Join alumni experts in tech, law, and health as they offer practical career insights.</p>
+            <a href="#register" class="btn btn-primary btn-sm default-back-color p-2">Register Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 shadow-sm">
+          <img src="{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}" class="card-img-top" alt="Virtual Career Talk">
+          <div class="card-body">
+            <h5 class="card-title">Virtual Career Talk Series</h5>
+            <p class="text-muted mb-1"><i class="bi bi-calendar-event me-1"></i> May 10, 2025</p>
+            <p class="text-muted"><i class="bi bi-geo-alt me-1"></i> Online (Zoom)</p>
+            <p class="card-text">Join alumni experts in tech, law, and health as they offer practical career insights.</p>
+            <a href="#register" class="btn btn-primary btn-sm default-back-color p-2">Register Now</a>
           </div>
         </div>
       </div>
